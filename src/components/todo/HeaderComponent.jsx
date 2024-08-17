@@ -9,7 +9,7 @@ export default function HeaderComponent(){
             <div className="container">
                 <div className="row">
                     <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-                        <a className="navbar-brand ms-2 fs-2 fw-bold" href="https://www.in28minutes.com">in28minutes</a>
+                        <a className="navbar-brand ms-2 fs-2 fw-bold" href="/">Todo App</a>
                         <div className="collapse navbar-collapse">
                             <ul className="navbar-nav">
                                 {authenticated && <li className="nav-item fs-5"><Link className="nav-link" to="/welcome">Home</Link></li>}
